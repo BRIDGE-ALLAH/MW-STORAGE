@@ -156,7 +156,7 @@ Use the logo on light or dark backgrounds only when contrast remains accessible.
 
 **GitHub social-preview limitation:** GitHub repository social-preview settings generally require a raster image (PNG/JPG) and are configured separately in repository settings. The committed SVG is the editable source artwork, not a claim that the repository's social-preview setting has been changed. Export it to PNG/JPG at the required dimensions and upload it through the repository's Settings → Social preview control when an authorized UI or binary-upload path is available.
 
-## 12. Visual direction
+## 11. Visual direction
 
 Recommended visual language:
 - Deep midnight / graphite backgrounds for infrastructure depth
