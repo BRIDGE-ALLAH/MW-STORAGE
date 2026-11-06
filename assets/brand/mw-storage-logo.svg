@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+<title id="title">MW-STORAGE logo</title><desc id="desc">A gold and silver mountain horizon mark beside the MW-STORAGE wordmark.</desc>
+<defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE08A"/><stop offset=".55" stop-color="#F5B82E"/><stop offset="1" stop-color="#C77A12"/></linearGradient><linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#AABBD0"/></linearGradient></defs>
+<g transform="translate(22 24)"><path d="M0 142 72 42l44 61 28-39 70 78h-58l-39-43-31 43H0Z" fill="url(#silver)"/><path d="m135 142 52-72 57 72h-48l-12-17-12 17Z" fill="url(#gold)"/><path d="M7 148h235" stroke="#F5B82E" stroke-width="3" opacity=".9"/><path d="M22 32Q122 -20 220 32" fill="none" stroke="#F5B82E" stroke-width="2" opacity=".65"/></g>
+<text x="300" y="115" fill="#F5F7FB" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3">MW-<tspan fill="url(#gold)">STORAGE</tspan></text>
+<text x="305" y="164" fill="#AFC0D4" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="5">PRESERVE WHAT MATTERS</text>
+</svg>
