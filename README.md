@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/brand/mw-storage-hero.svg" alt="MW-STORAGE — Preserve What Matters. Keep Data Within Reach." width="100%" />
+</p>
+
+<p align="center">
+  <a href="assets/brand/mw-storage-logo.svg">Logo SVG</a> ·
+  <a href="assets/brand/mw-storage-social-preview.svg">Social preview artwork (SVG)</a> ·
+  <a href="BRAND_BLUEPRINT.md">Brand blueprint</a>
+</p>
+
 [![RustFS](https://repository-images.githubusercontent.com/722597620/0fa936a2-8164-4f53-867f-def4beb64b21)](https://rustfs.com)
 
 <p align="center">RustFS is a high-performance, distributed object storage system built in Rust.</p>
