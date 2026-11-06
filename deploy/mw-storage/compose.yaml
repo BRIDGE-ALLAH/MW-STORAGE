@@ -1,0 +1,35 @@
+# MW-STORAGE production-oriented single-node deployment.
+# Keep both services bound to localhost and publish them through a TLS reverse proxy.
+services:
+  mw-storage:
+    image: ${RUSTFS_IMAGE:-rustfs/rustfs:latest}
+    container_name: mw-storage
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - "127.0.0.1:${S3_BIND_PORT:-9000}:9000"
+      - "127.0.0.1:${CONSOLE_BIND_PORT:-9001}:9001"
+    environment:
+      RUSTFS_VOLUMES: /data
+      RUSTFS_ADDRESS: 0.0.0.0:9000
+      RUSTFS_CONSOLE_ADDRESS: 0.0.0.0:9001
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_ACCESS_KEY: ${RUSTFS_ACCESS_KEY:?Set RUSTFS_ACCESS_KEY in the env file}
+      RUSTFS_SECRET_KEY: ${RUSTFS_SECRET_KEY:?Set RUSTFS_SECRET_KEY in the env file}
+      RUSTFS_CONSOLE_CORS_ALLOWED_ORIGINS: ${RUSTFS_CONSOLE_CORS_ALLOWED_ORIGINS:-http://localhost:9001}
+      RUSTFS_OBS_LOGGER_LEVEL: ${RUSTFS_OBS_LOGGER_LEVEL:-info}
+      RUSTFS_OBS_LOG_DIRECTORY: /logs
+    volumes:
+      - mw_storage_data:/data
+      - mw_storage_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:9000/health >/dev/null"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  mw_storage_data:
+  mw_storage_logs:
