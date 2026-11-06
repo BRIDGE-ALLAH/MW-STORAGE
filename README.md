@@ -33,6 +33,45 @@ English | <a href="https://github.com/rustfs/rustfs/blob/main/README_ZH.md">简�
   <a href="https://readme-i18n.com/rustfs/rustfs?lang=ru">Русский</a>
 </p>
 
+
+
+# MW-STORAGE — Preserve What Matters. Keep Data Within Reach.
+
+<p align="center"><strong>Reliable object storage. Verifiable integrity. Responsible stewardship of digital information.</strong></p>
+
+**MW-STORAGE** is an object-storage initiative built around a simple conviction: data is more than bytes. It can represent knowledge, work, memories, evidence, and the continuity of projects over time. Infrastructure entrusted with that data should be engineered with care, operated transparently, and designed for recovery.
+
+MW-STORAGE brings this purpose to a practical storage foundation: high-performance, distributed object storage built in Rust, with broad S3 API compatibility for supported operations. Its engineering direction emphasizes durability, integrity, security, interoperability, and operational clarity—so teams can retain control of their information while building services on an open, inspectable foundation.
+
+> **Our principle:** Preserve the original. Protect its integrity. Keep its provenance clear. Make access deliberate. Design for continuity.
+
+### Why MW-STORAGE
+
+- **Stewardship over possession** — treat stored information as entrusted data, with clear ownership, access boundaries, and retention decisions.
+- **Integrity that can be examined** — use checksums, bitrot protection, healing, and auditable operational practices where supported by the underlying implementation.
+- **Resilience by design** — build on distributed storage, erasure coding, replication, and recovery capabilities, with deployment topology and failure assumptions documented honestly.
+- **Open foundations** — build on RustFS and its open-source ecosystem rather than obscuring the technology underneath the MW-STORAGE identity.
+- **Interoperability without overclaiming** — support S3-compatible workflows while documenting the actual compatibility scope and preview limitations.
+- **Human responsibility** — technology supports people and organizations; it does not replace their judgment, governance, or accountability.
+
+### Brand identity
+
+**MW-STORAGE** stands for dependable storage infrastructure in service of long-term digital continuity. The brand draws its editorial principles from the MoonWitness XV vision—source awareness, witness, preservation, traceability, and respect for context—and from the A-L-L-A-H ecosystem concept, *Accountable Life, Learning & Action Hub*: accountable action, useful knowledge, and service.
+
+These are inspirations for product values, not claims of religious authority or supernatural capability. MW-STORAGE is a technical storage project. It does not represent a religious institution, issue theological judgments, or claim that software has divine status or authority.
+
+**Tagline:** *Preserve What Matters. Keep Data Within Reach.*
+
+**Brand promise:** *Data entrusted to MW-STORAGE is handled through engineering practices that prioritize integrity, clarity, control, and continuity.*
+
+### Project foundation and attribution
+
+MW-STORAGE is based on **RustFS**. The upstream project's architecture, implementation, license, trademarks, and contribution history remain subject to their respective terms. MW-STORAGE branding describes this repository's project direction; it does not imply that MW-STORAGE owns the upstream RustFS project or that upstream maintainers endorse this brand.
+
+For the brand principles, positioning, audience, messaging, and roadmap, see [BRAND_BLUEPRINT.md](BRAND_BLUEPRINT.md).
+
+---
+
 RustFS is a high-performance, distributed object storage system built in Rust—one of the most loved programming languages worldwide. RustFS combines the simplicity of MinIO with the memory safety and raw performance of Rust. It offers broad S3 API compatibility for supported features, is completely open-source, and is optimized for data lakes, AI, and big data workloads.
 
 Unlike other storage systems, RustFS is released under the permissible Apache 2.0 license, avoiding the restrictions of AGPL. With Rust as its foundation, RustFS delivers superior speed and secure distributed features for next-generation object storage.
