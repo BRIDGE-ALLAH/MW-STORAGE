@@ -141,7 +141,22 @@ The repository's implementation and its upstream documentation remain the author
 
 Keep upstream RustFS attribution, copyright notices, license files, and trademark statements intact. MW-STORAGE branding must not obscure upstream provenance.
 
-## 10. Visual direction
+
+## 10. Visual identity and asset system
+
+The initial visual system uses a midnight-blue / graphite foundation, restrained warm-gold highlights, silver typography, and abstract horizon / data-vault geometry. The visual language is intended to communicate clarity, continuity, and responsible infrastructure—not a certification or a guarantee of security.
+
+Committed assets:
+
+- `assets/brand/mw-storage-logo.svg` — primary horizontal logo lockup.
+- `assets/brand/mw-storage-hero.svg` — README hero banner.
+- `assets/brand/mw-storage-social-preview.svg` — 1280 × 640 social-preview artwork source in SVG.
+
+Use the logo on light or dark backgrounds only when contrast remains accessible. Do not distort, recolor arbitrarily, add effects, or separate the mark from the wordmark in ways that harm legibility. The README hero is an SVG and can be rendered directly by GitHub.
+
+**GitHub social-preview limitation:** GitHub repository social-preview settings generally require a raster image (PNG/JPG) and are configured separately in repository settings. The committed SVG is the editable source artwork, not a claim that the repository's social-preview setting has been changed. Export it to PNG/JPG at the required dimensions and upload it through the repository's Settings → Social preview control when an authorized UI or binary-upload path is available.
+
+## 12. Visual direction
 
 Recommended visual language:
 - Deep midnight / graphite backgrounds for infrastructure depth
@@ -152,7 +167,7 @@ Recommended visual language:
 
 Avoid religious iconography, pseudo-certification seals, security shields presented as guarantees, and visuals that suggest supernatural or military authority.
 
-## 11. Narrative system
+## 12. Narrative system
 
 **Master tagline:** Preserve What Matters. Keep Data Within Reach.
 
@@ -166,7 +181,7 @@ Avoid religious iconography, pseudo-certification seals, security shields presen
 
 Every important system leaves a record. Every research effort, creative work, service, and organization depends on information that must remain available and trustworthy. MW-STORAGE takes that responsibility seriously. Built on RustFS, it gives operators a practical object-storage foundation while placing integrity, resilience, and clarity at the center of the story. The goal is not to promise permanence; it is to engineer and operate storage responsibly, so the information people entrust to it has a better path to remain useful.
 
-## 12. Roadmap for brand maturity
+## 13. Roadmap for brand maturity
 
 | Stage | Deliverable | Acceptance signal |
 |---|---|---|
@@ -178,7 +193,7 @@ Every important system leaves a record. Every research effort, creative work, se
 
 This is a branding maturity plan, not a claim that the listed deliverables are implemented.
 
-## 13. Governance and change control
+## 14. Governance and change control
 
 1. Technical documentation and source code outrank marketing copy for feature truth.
 2. Upstream RustFS notices and licensing must remain intact.
@@ -187,7 +202,7 @@ This is a branding maturity plan, not a claim that the listed deliverables are i
 5. Religious language, if ever used in ecosystem context, must be respectful and must not confer divine authority on software.
 6. Changes to this blueprint should be reviewed alongside README and release messaging for consistency.
 
-## 14. Source notes
+## 15. Source notes
 
 - MoonWitness XV, **Master Vision Narrative XV** — especially the North Star, Empire of the Light / A-L-L-A-H ecosystem direction, name constitution, and evidence-before-claims discipline: https://github.com/bjo163/moonwitnessxv/blob/main/docs/vision/MASTER_VISION_NARRATIVE_XV.md
 - MoonWitness XV, **README** — repository boundaries and the distinction between implemented, planned, and historical material: https://github.com/bjo163/moonwitnessxv
