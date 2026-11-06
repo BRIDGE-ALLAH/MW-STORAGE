@@ -175,3 +175,8 @@ cargo clippy --fix -p <crate> --all-targets
 ## Pull Requests
 
 Follow the [Git and PR rules](.agents/references/pull-requests.md) and current [PR template](.github/pull_request_template.md). Use English Conventional Commit titles, describe the changed behavior, and provide actual verification evidence and material limits. Keep template headings in the template itself rather than maintaining a copied list here.
+
+
+## Brand and project identity
+
+Contributions to project-facing documentation, screenshots, diagrams, announcements, and other public materials should follow the [MW-STORAGE Brand Guidelines](BRAND_GUIDELINES.md) and [Brand Blueprint](BRAND_BLUEPRINT.md). Preserve RustFS attribution and license notices. Keep all technical claims evidence-based: distinguish implemented, preview, experimental, and planned capabilities; do not imply absolute security, guaranteed permanence, blanket compliance, or upstream endorsement. Brand assets and design tokens are maintained in [assets/brand](assets/brand/).
