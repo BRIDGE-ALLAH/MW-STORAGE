@@ -1,6 +1,6 @@
 # MW-STORAGE Brand Assets
 
-This directory contains the initial project identity artwork.
+This directory contains the MW-STORAGE identity artwork and design tokens. See [BRAND_GUIDELINES.md](../../BRAND_GUIDELINES.md) for usage rules and [BRAND_BLUEPRINT.md](../../BRAND_BLUEPRINT.md) for positioning and narrative.
 
 | Asset | Purpose | Dimensions |
 |---|---|---:|
