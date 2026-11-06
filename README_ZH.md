@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/brand/mw-storage-hero.svg" alt="MW-STORAGE — Preserve What Matters. Keep Data Within Reach." width="100%" />
+</p>
+
+<p align="center">
+  <a href="assets/brand/mw-storage-logo.svg">品牌标志</a> ·
+  <a href="BRAND_GUIDELINES.md">品牌指南</a> ·
+  <a href="BRAND_BLUEPRINT.md">品牌蓝图</a>
+</p>
+
 [![RustFS](https://repository-images.githubusercontent.com/722597620/0fa936a2-8164-4f53-867f-def4beb64b21)](https://rustfs.com.cn)
 
 <p align="center">RustFS 是一个基于 Rust 构建的高性能分布式对象存储系统。</p>
