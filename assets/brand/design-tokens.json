@@ -1,0 +1,19 @@
+{
+  "brand": "MW-STORAGE",
+  "tagline": "Preserve What Matters. Keep Data Within Reach.",
+  "colors": {
+    "midnight": "#071323",
+    "deepNavy": "#0C2037",
+    "graphite": "#101827",
+    "warmGold": "#F4B72F",
+    "paleGold": "#FFE69A",
+    "silver": "#F3F6FA",
+    "steelBlue": "#AFC1D4",
+    "networkBlue": "#2D8DD2"
+  },
+  "typography": {
+    "preferred": "Inter",
+    "fallback": ["system-ui", "-apple-system", "Segoe UI", "Arial", "sans-serif"]
+  },
+  "principles": ["integrity", "resilience", "control", "openness", "continuity", "accountability"]
+}
